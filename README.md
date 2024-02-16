@@ -15,19 +15,12 @@ React and Django are powerful tools for building web applications, each with its
 
 `source myenv/bin/activate`
 
+`pip install -r requirement.txt`
 
-
-## Step 1: Set Up Django Project
+## Run the Application
 
 ```bash
-pip install django
-django-admin startproject myproject
 cd myproject
-```
-Next, create a Django app within the project:
-
-```
-python manage.py startapp myapp
 ```
 
 Apply Migrations:
@@ -37,16 +30,6 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-## Step 2: Set Up React Project
-
-
-```bash
-mkdir frontend
-cd frontend
-npx create-react-app myreactapp
-```
-
-## Step 3: Run the Application
 
 Start the Django development server:
 
